@@ -10,6 +10,6 @@ EN TERMINAL, LANZAR:
 - Terminal 3 (OPCIONAL): roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch 
 
 EN MATLAB: 
-- Ejecutar el script Turtlebot3_FMSquare.m (modificar la ruta a la librería toolbox_fast_marching)
+- Ejecutar el script Turtlebot3_FMSquare.m
 
 El mapa que utiliza es el de haber mapeado el mundo que se abre por defecto con el TB3. Si se modifica y se añaden nuevos obstáculos, el robot debería detectarlos con el láser y replanificar en tiempo real.
