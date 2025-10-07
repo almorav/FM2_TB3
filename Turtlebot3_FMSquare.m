@@ -6,7 +6,7 @@
 %% Primer paso: cargar mapa binario
 clear
 clc
-addpath('/home/alicia/Documentos/Codigo/toolbox_fast_marching','/home/alicia/Documentos/Codigo/toolbox_fast_marching/data','/home/alicia/Documentos/Codigo/toolbox_fast_marching/toolbox');
+addpath('toolbox_fast_marching','toolbox_fast_marching/data','toolbox_fast_marching/toolbox');
 load('turtlebot3.mat');
 [H,Wi]=size(matrix); % Dimensiones del mapa
 
